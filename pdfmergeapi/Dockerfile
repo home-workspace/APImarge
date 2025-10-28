@@ -6,8 +6,8 @@ WORKDIR /app
 COPY *.csproj ./
 RUN dotnet restore
 
-# Copiar todo y compilar
 COPY . ./
+
 RUN dotnet publish -c Release -o out
 
 # Etapa 2: runtime
