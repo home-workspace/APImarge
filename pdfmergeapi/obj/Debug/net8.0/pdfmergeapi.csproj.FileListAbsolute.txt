@@ -39,3 +39,4 @@ C:\Users\roberto.gomez\source\repos\pdfmergeapi\pdfmergeapi\obj\Debug\net8.0\ref
 C:\Users\roberto.gomez\source\repos\pdfmergeapi\pdfmergeapi\obj\Debug\net8.0\pdfmergeapi.pdb
 C:\Users\roberto.gomez\source\repos\pdfmergeapi\pdfmergeapi\obj\Debug\net8.0\pdfmergeapi.genruntimeconfig.cache
 C:\Users\roberto.gomez\source\repos\pdfmergeapi\pdfmergeapi\obj\Debug\net8.0\ref\pdfmergeapi.dll
+C:\Users\roberto.gomez\source\repos\pdfmergeapi\pdfmergeapi\obj\Debug\net8.0\pdfmergeapi.sourcelink.json
