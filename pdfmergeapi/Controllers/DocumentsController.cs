@@ -67,7 +67,13 @@ namespace PdfMergeApi.Controllers
                     await _fileStorage.DeleteTempFileAsync(path);
                 }
 
-                return File(outputBytes, "application/pdf", merge.OutputFileName ?? "merged.pdf");
+                return Ok(new
+                {
+                    status = "success",
+                    message = "Files merged successfully",
+                    outputFile = File(outputBytes, "application/pdf", merge.OutputFileName ?? "merged.pdf")
+                });
+
             }
             catch (Exception ex)
             {
